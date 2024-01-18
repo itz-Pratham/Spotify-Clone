@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="spotify.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <a href="#">
+                <img src="./logo.png" alt="logo"  />
+            </a>
+            <h2>Spotify</h2>
+        </div>
+        <div class="navigation part1">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="fa fa-home"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa fa-search"></span>
+                        <span>Search</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa fa-layer-group"></span>
+                        <span>Your Library</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="navigation part2">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="fa fas fa-plus-square"></span>
+                        <span>Create Playlist</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa fas fa-heart"></span>
+                        <span>Liked Songs</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="policies">
+            <ul>
+                 <li>
+                    <a href="#">Cookies</a>
+                 </li>
+                 <li>
+                    <a href="#">Privacy</a>
+                 </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="topbar">
+            <div class="prev-next-buttons">
+                <button type="button" class="fa fas fa-chevron-left"></button>
+                <button type="button" class="fa fas fa-chevron-right"></button>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="#">Premium</a>
+                    </li>
+                    <li>
+                        <a href="#">Support</a>
+                    </li>
+                    <li>
+                        <a href="#">Download</a>
+                    </li>
+                    <li class="divider">|</li>
+                    <li>
+                        <a href="#">Sign Up</a>
+                    </li>
+                </ul>
+                <button type="button">Log In</button>
+            </div>
+        </div>
+
+        <div class="spotify_playlists">
+            <h2>Spotify Playlists</h2>
+
+            <div class="list">
+                <div class="item">
+                    <img class = "albumArt" src="./covers/1.jpg" />
+                    <div class="play">
+                        <span id="0" class="fa fa-play songItemPlay"></span>
+                    </div> 
+                    <h4 class="songName">Today's Top Hits</h4>
+                    <p>Rema & Selena Gomez are on the top of the...</p>
+                </div>
+                <div class="item">
+                    <img class = "albumArt" src="./covers/2.jpg" />
+                    <div class="play">
+                        <span id="1" class="fa fa-play songItemPlay"></span>
+                    </div> 
+                    <h4 class="songName">Today's Top Hits</h4>
+                    <p>Rema & Selena Gomez are on the top of the...</p>
+                </div>
+                <div class="item">
+                    <img class = "albumArt" src="./covers/3.jpg" />
+                    <div class="play">
+                        <span id="2" class="fa fa-play songItemPlay"></span>
+                    </div> 
+                    <h4 class="songName">Today's Top Hits</h4>
+                    <p>Rema & Selena Gomez are on the top of the...</p>
+                </div>
+                <div class="item">
+                    <img class = "albumArt" src="./covers/4.jpg" />
+                    <div class="play">
+                        <span id="3" class="fa fa-play songItemPlay"></span>
+                    </div> 
+                    <h4 class="songName">Today's Top Hits</h4>
+                    <p>Rema & Selena Gomez are on the top of the...</p>
+                </div>
+                <div class="item">
+                    <img class = "albumArt" src="./covers/5.jpg" />
+                    <div class="play">
+                        <span id="4" class="fa fa-play songItemPlay"></span>
+                    </div> 
+                    <h4 class="songName">Today's Top Hits</h4>
+                    <p>Rema & Selena Gomez are on the top of the...</p>
+                </div>
+                <div class="item">
+                    <img class = "albumArt" src="./covers/6.jpg" />
+                    <div class="play">
+                        <span id="5" class="fa fa-play songItemPlay"></span>
+                    </div> 
+                    <h4 class="songName">Today's Top Hits</h4>
+                    <p>Rema & Selena Gomez are on the top of the...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spotify_playlists">
+            <h2>Your Top Mixes</h2>
+
+            <div class="list">
+                <div class="item">
+                    <img class = "albumArt" src="./covers/7.jpg" />
+                    <div class="play">
+                        <span id="6" class="fa fa-play songItemPlay"></span>
+                    </div> 
+                    <h4 class="songName">Today's Top Hits</h4>
+                    <p>Rema & Selena Gomez are on the top of the...</p>
+                </div>
+                <div class="item">
+                    <img class = "albumArt" src="./covers/8.jpg" />
+                    <div class="play">
+                        <span id="7" class="fa fa-play songItemPlay"></span>
+                    </div> 
+                    <h4 class="songName">Today's Top Hits</h4>
+                    <p>Rema & Selena Gomez are on the top of the...</p>
+                </div>
+                <div class="item">
+                    <img class = "albumArt" src="./covers/9.jpg" />
+                    <div class="play">
+                        <span id="8" class="fa fa-play songItemPlay"></span>
+                    </div> 
+                    <h4 class="songName">Today's Top Hits</h4>
+                    <p>Rema & Selena Gomez are on the top of the...</p>
+                </div>
+                <div class="item">
+                    <img class = "albumArt" src="./covers/10.jpg" />
+                    <div class="play">
+                        <span id="9" class="fa fa-play songItemPlay"></span>
+                    </div> 
+                    <h4 class="songName">Today's Top Hits</h4>
+                    <p>Rema & Selena Gomez are on the top of the...</p>
+                </div>
+                <div class="item">
+                    <img class = "albumArt" src="./covers/11.jpg" />
+                    <div class="play">
+                        <span id="10" class="fa fa-play songItemPlay"></span>
+                    </div> 
+                    <h4 class="songName">Today's Top Hits</h4>
+                    <p>Rema & Selena Gomez are on the top of the...</p>
+                </div>
+                <div class="item">
+                    <img class = "albumArt" src="./covers/12.jpg" />
+                    <div class="play">
+                        <span id="11" class="fa fa-play songItemPlay"></span>
+                    </div> 
+                    <h4 class="songName">Today's Top Hits</h4>
+                    <p>Rema & Selena Gomez are on the top of the...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="preview_play">
+            <div class="info">
+                <img id="masterImage" src="./covers/1.jpg" />
+                <span id="masterSongName">Blinding Lights</span>
+                <span id="masterSinger">Anonymous</span>
+            </div>
+            <div class="playback">
+                <div class="play_icons">
+                    <i class="fa-solid fa-backward-step" id ="previous"></i>
+                    <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+                    <i class="fa-solid fa-forward-step" id="next"></i>
+                </div>
+                <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+            </div>
+            <div class="extra_icons">
+                <i class="fa fa-thumbs-up"></i>
+                <i class="fa fa-circle-down"></i>
+                <i class="fa fa-volume-high"></i>
+                <i class="fa fa-signal"></i>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/20db7e1e15.js" crossorigin="anonymous"></script>
+
+    <script src="spotify.js"></script>
+    </body>
+</html>
